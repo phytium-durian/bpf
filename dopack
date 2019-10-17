@@ -1,0 +1,7 @@
+#!/bin/sh
+UBOOT=u-boot.bin
+FTB=ft-all.bin
+FIP=fip-all.bin
+cp $FTB $FIP
+dd if=$UBOOT of=$FIP bs=1M seek=5
+ 
