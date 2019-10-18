@@ -1,3 +1,8 @@
+#
+# Copyright (c) 2019, ARM Limited and Contributors. All rights reserved.
+#
+# SPDX-License-Identifier: BSD-3-Clause
+#
 #!/bin/sh
 UBOOT=u-boot.bin
 FTB=ft-all.bin
